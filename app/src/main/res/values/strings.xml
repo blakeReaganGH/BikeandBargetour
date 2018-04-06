@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bike and Barge</string>
+    <string name="title_item_detail">Bike and Barge</string>
+    <string name="txtBike">Come ride bikes!</string>
+    <string name="txtBarge">Come ride Boats!</string>
+    <string name="txtBudapest">Located in Budapest, Hungary!</string>
+    <string name="txtTitle">Summer- Bike and Barge European Tour.</string>
+    <string name="txtInfo">Join us for a Bike and Barge in Hungary.</string>
+    <string name="bikebargepic">bike and barge image</string>
+    <string name="imgbike">bike image</string>
+    <string name="imgbarge">barge image</string>
+    <string name="imgbudapest">budapest image</string>
+</resources>

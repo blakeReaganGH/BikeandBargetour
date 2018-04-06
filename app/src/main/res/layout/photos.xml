@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="608dp"
+        android:layout_height="81dp">
+
+        <ImageView
+            android:id="@+id/imgBike"
+            android:layout_width="224dp"
+            android:layout_height="156dp"
+            android:contentDescription="@string/imgbike"
+            android:padding="15sp"
+            android:src="@drawable/bike" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBike"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgBarge"
+            android:layout_width="224dp"
+            android:layout_height="156dp"
+            android:contentDescription="@string/imgbarge"
+            android:padding="15sp"
+            android:src="@drawable/barge" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBarge"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgBudapest"
+            android:layout_width="224dp"
+            android:layout_height="156dp"
+            android:contentDescription="@string/imgbudapest"
+            android:padding="15sp"
+            android:src="@drawable/budapest" />
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBudapest"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+    </TableRow>
+</TableLayout>
